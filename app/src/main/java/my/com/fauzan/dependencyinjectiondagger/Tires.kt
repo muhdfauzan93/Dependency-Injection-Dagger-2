@@ -1,5 +1,10 @@
 package my.com.fauzan.dependencyinjectiondagger
 
+import android.util.Log
 
-class Wheels (rims: Rims, tires: Tires)
+class Tires {
+    fun inflate() {
+        Log.d("Tires", "Tires inflated")
+    }
+}
 // we don't own this class so we can't generate it with @Inject

@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val carComponent = DaggerCarComponent.create()
-        // carComponent.getCar()
-        carComponent.inject(this)
+        car = carComponent.getCar()
+        // carComponent.inject(this)
         car.drive()
     }
 }
