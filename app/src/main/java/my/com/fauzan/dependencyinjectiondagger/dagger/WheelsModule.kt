@@ -1,7 +1,10 @@
-package my.com.fauzan.dependencyinjectiondagger
+package my.com.fauzan.dependencyinjectiondagger.dagger
 
 import dagger.Module
 import dagger.Provides
+import my.com.fauzan.dependencyinjectiondagger.car.Rims
+import my.com.fauzan.dependencyinjectiondagger.car.Tires
+import my.com.fauzan.dependencyinjectiondagger.car.Wheels
 
 @Module
 class WheelsModule {
@@ -22,6 +25,7 @@ class WheelsModule {
 
         @JvmStatic
         @Provides
-        fun provideWheels(rims: Rims, tires: Tires) = Wheels(rims, tires)
+        fun provideWheels(rims: Rims, tires: Tires) =
+            Wheels(rims, tires)
     }
 }

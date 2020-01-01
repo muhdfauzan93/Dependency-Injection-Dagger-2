@@ -1,4 +1,4 @@
-package my.com.fauzan.dependencyinjectiondagger
+package my.com.fauzan.dependencyinjectiondagger.car
 
 import javax.inject.Inject
 

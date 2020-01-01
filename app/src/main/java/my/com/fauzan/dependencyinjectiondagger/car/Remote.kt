@@ -1,6 +1,7 @@
-package my.com.fauzan.dependencyinjectiondagger
+package my.com.fauzan.dependencyinjectiondagger.car
 
 import android.util.Log
+import my.com.fauzan.dependencyinjectiondagger.car.Car
 import javax.inject.Inject
 
 class Remote @Inject constructor(){

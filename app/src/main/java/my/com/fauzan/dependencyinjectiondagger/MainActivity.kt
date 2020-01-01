@@ -2,6 +2,7 @@ package my.com.fauzan.dependencyinjectiondagger
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import my.com.fauzan.dependencyinjectiondagger.car.Car
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
